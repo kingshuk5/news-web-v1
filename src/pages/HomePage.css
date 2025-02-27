@@ -1,0 +1,15 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-categories {
+  padding: 1rem 0;
+}
+
+@media (max-width: 768px) {
+  .featured-categories {
+    padding: 0.5rem 0;
+  }
+}
+
